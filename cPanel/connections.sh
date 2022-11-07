@@ -1,5 +1,5 @@
 printf "\nSelf-Updating Script...\n"
-#wget -O /scripts/connections.sh https://gitlab.com/brixly/file-dump/-/raw/master/scripts/view_connections.sh
+wget -O /root/scriptclaus/connections.sh https://raw.githubusercontent.com/Vudubond/scripts/main/cPanel/connections.sh
 
 printf "\nLSAPI Key Metrics:\n"
 cat /etc/apache2/conf.d/lsapi.conf | grep "lsapi_criu "
